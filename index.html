@@ -4,37 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elo Mercy - Radio Host</title>
+    <link rel="stylesheet" href="style.css">
     <style>
-        body {
-            background: #f0f4f8;
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        .welcome {
-            background: #fff;
-            padding: 2rem 3rem;
-            border-radius: 12px;
-            box-shadow: 0 4px 16px rgba(0,0,0,0.08);
-            text-align: center;
-        }
-        .welcome h1 {
-            color: #2a4d69;
-            margin-bottom: 0.5rem;
-        }
-        .welcome p {
-            color: #4b6584;
-            font-size: 1.1rem;
-        }
     </style>
 </head>
 <body>
-    <div class="welcome">
-        <h1>Welcome to Elo Mercy's Page!</h1>
-        <p>Your favorite radio host. Stay tuned for more updates and shows!</p>
-    </div>
+    <main>
+        <header>
+            <a href="/" class="logo">Elo Mercy</a>
+            <nav id="menu-nav" class="hamburger-menu">
+                <button aria-expanded="false" class="menu-btn">M</button>
+                <ul class="hidden-menu" hidden>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <nav id="menu-nav-desktop">
+                <ul class="menu-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <div class="welcome">
+                <h1>Onose Mercy Elo</h1>
+                <h2>A passionate <span>On-Air Personality</span>, <span>Radio Host</span>, <span>Event Anchor</span> and <span>Voice-Over Artist</span> - Often reffered to as the lark sparrow of the airwaves for her bright, melodious presence behind the mic. Her love for broadcasting began in childhood, inspired by the voices of TV personalities who sparked her dream of a career in media.</h2>
+            </div>
+            <div class="hero-img">
+                <img src="./images/portfolio-image.jpg" width="400px" alt="elo mercy onose">
+            </div>
+        </section>
+    </main>
 </body>
+<script src="index.js"></script>
 </html>

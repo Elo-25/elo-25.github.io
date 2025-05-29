@@ -17,7 +17,7 @@ h1, h2, h3, h4, p {
 }
 
 main {
-    padding: 1rem;
+    /* padding: 1rem; */
 }
 
 img {
@@ -81,9 +81,12 @@ header {
 }
 
 .menu-btn {
-    border: 1px solid magenta;
+    /* border: 1px solid magenta; */
     cursor: pointer;
-    padding: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    background-color: #dedede;
+    border: none;
+    border-radius: 5px;
 }
 
 [hidden] {
@@ -124,6 +127,15 @@ header {
 
 @media (min-width:700px) {
     .hero {
+        display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+
+    #menu-nav-desktop {
+        display: flex;
+    }
+
+    .hamburger-menu {
+        display: none;
     }
 }

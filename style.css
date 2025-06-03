@@ -146,6 +146,20 @@ header {
         font-size: 1.2rem;
         margin-bottom: 2rem;
     }
+
+    .about-img {
+        border: 2px solid grey;
+        display: flex;
+        width: 100%;
+        overflow: hidden;
+
+        img {
+            /* flex: 1; */
+            height: 40vh;
+            width: 100%;
+            object-fit: contain;
+        }
+    }
 }
 
 footer {
